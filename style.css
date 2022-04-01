@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto&display=swap');
+
+body {
+    font-family: 'Hurricane', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.container {
+max-width: 1000px;
+margin: auto;
+padding-top: 10px;
+}
+
+
+.avatar {
+width: 200px;
+/* border-radius: 28px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); */
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.about {
+    font-size: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.list {
+    padding: 0 30px ;
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+.about h2 {
+    margin: 10px;
+}
+
+.table {
+    font-size: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.table2 {
+    width: 100%;
+}
+
+.table2 td {
+    padding-bottom: 10px;
+}
+
+.table2 td:nth-child(2), td:nth-child(3) {
+    color: #86898f;
+}
+
+
+@media (max-width:650px) {
+    .info {
+       display: block; 
+       text-align: center;
+    }
+}
+
+
+.media {
+    font-size: 25px;
+    /* border: 2px solid gray; */
+    /* border-radius: 10px; */
+    /* background: white; */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.table h2 {
+    margin: 10px;
+}
+.media h2 {
+    margin: 10px;
+}
+
+a {
+color: red;
+text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn {
+    font-size: 30px;
+    background: #111;
+    padding: 10px 100px;
+    color: #fff;
+    border: none;
+    cursor: pointer; /* при наведении на кнопку вместо курсора показывается палец */
+    border-radius: 5px;
+    font-family: inherit; /* унаследовать шрифт который выше */
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.form h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex; /* изучить !!! нужен чтобы сместить элементы в линию */
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+.form-group label { /* label то inline этемент, поэтому чтобы сделать в 1 строку нужно изменить его на displey: block */
+display: block;
+font-size: 25px;
+color: #2e1664;
+}
+
+.form-group input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 15px;
+    outline: none;
+    font-family: inherit;
+}

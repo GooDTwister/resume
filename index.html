@@ -3,38 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <title>Финансовый консультант Бобров Роман</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src = 'https://lkapital.ru/wp-content/uploads/2018/11/ZH1.png' att = 'Фото Романа Боброва'
-width = 300px>
-<h1>Привет всем!</h1>
-<h2>Я Бобров Роман, <a href = "https://lkapital.ru/autors/roman-bobrov/" target = "_blank">независимый финансовый консультант</a></h2>
+    <div class="container">
 
-<ul>
+    <div class="info">
+        <img src = 'https://lkapital.ru/wp-content/uploads/2018/11/ZH1.png' att = 'Фото Романа Боброва' class="avatar">
+        
+    <div class="info-text">
+<h1>Hi everybody!</h1>
+<h2>My name is Bobrov Roman, <a href = "https://lkapital.ru/autors/roman-bobrov/" target = "_blank">I am independent financial advisor</a></h2>
+
+<div class="media"> 
+    <h2>Social media</h2>
+
+    <a href="https://www.instagram.com/rbobrov_capital/" target = "_blank">Instagram</a> 
+
+    <a href="https://t.me/GooDTwister" target="_blank">Telegram</a>
+
+    <a href="https://www.youtube.com/user/lkapital" target = "_blank">YouTube</a>
+</div>
+
+<!-- <ul>
     <li>Эксперт по частным инвестициям.</li> 
     <li>Практикующий инвестор. Самостоятельно инвестирует собственные средства с 2010 года.</li> 
     <li>Автор публикаций в СМИ и частый гость на ведущих телеканалах.</li>
     <li>Консультант-методист по финансовой грамотности проекта Министерства финансов России. Входит во Всероссийский реестр консультантов-методистов.</li>
+</ul> -->
+</div>
+</div>
+<div class="about">
+<h2>About me</h2>
+
+<ul class="list">
+    <li>Private investment expert.</li>
+     <li>Practicing investor. Independently invests own funds since 2010.</li>
+     <li>Author of publications in the media and a frequent guest on leading TV channels.</li>
+     <li>Consultant-methodologist on financial literacy of the project of the Ministry of Finance of Russia. Included in the All-Russian register of consultants-methodologists.</li>
 </ul>
+</div>
 
-<h2>Социальные сети</h2>
-<ul>
-    <li>
-       <a href="https://www.instagram.com/rbobrov_capital/" target = "_blank">Instagram</a> 
-    </li>
+<div class="table">
+    <h2>Work experience</h2>
+    <table class="table2">
+    <tbody>
+    <tr>
+        <td>Poker Stars</td>
+        <td>Online poker</td>
+        <td>2010-2012</td>
+    </tr>
+    <tr>
+        <td>Scandi International</td>
+        <td>Financial Adviser</td>
+        <td>2012-2015</td>
+    </tr>
+    <tr>
+        <td>LKapital</td>
+        <td>Financial Adviser</td>
+        <td>2015-2022</td>
+    </tr>
+    </tbody>
+</table>
+</div>
 
-    <li>
-        <a href="https://t.me/GooDTwister" target="_blank">Telegram</a>
-    </li>
     
-    <li>
+
+<!-- <h2>Социальные сети</h2> -->
+      <!-- <div class="media"> 
+        <h2>Social media</h2>
+
+        <a href="https://www.instagram.com/rbobrov_capital/" target = "_blank">Instagram</a> 
+
+        <a href="https://t.me/GooDTwister" target="_blank">Telegram</a>
+    
         <a href="https://www.youtube.com/user/lkapital" target = "_blank">YouTube</a>
-    </li>
-</ul>
+    </div> -->
+
+    <!-- <button class="btn">Sent me</button> -->
 
 
+ 
+    <form action="/" class="form">
 
+        <h2>Contact me</h2>
 
-<script src="app.js"></script>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" id="name" value="Enter your name">
+            </div>
+    
+            <div class="form-group">
+                <label for="e-mail">Your e-mail</label>
+                <input type="e-mail" id="e-mail" placeholder="Enter your e-mail">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" cols="25" rows="5"></textarea>
+        </div>
+
+        <!-- <input type="submit" value="Отправить форму"> -->
+        <button type="submit">Submit form</button>
+
+    </form>
+
+</div>
+
 </body>
 </html>
